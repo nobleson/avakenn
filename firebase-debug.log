@@ -1,0 +1,86 @@
+[debug] [2019-07-08T13:39:39.468Z] ----------------------------------------------------------------------
+[debug] [2019-07-08T13:39:39.472Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mofrey\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-07-08T13:39:39.472Z] CLI Version:   6.9.2
+[debug] [2019-07-08T13:39:39.472Z] Platform:      win32
+[debug] [2019-07-08T13:39:39.472Z] Node Version:  v8.16.0
+[debug] [2019-07-08T13:39:39.473Z] Time:          Mon Jul 08 2019 14:39:39 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2019-07-08T13:39:39.473Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-08T13:39:39.487Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-08T13:39:39.489Z] > authorizing via signed-in user
+[debug] [2019-07-08T13:39:39.489Z] [iam] checking project cslmis-provider for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-07-08T13:39:39.491Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-08T13:39:39.491Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-08T13:39:40.430Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-08T13:39:40.527Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cslmis-provider:testIamPermissions  
+
+[debug] [2019-07-08T13:40:02.032Z] Error: connect ETIMEDOUT 216.58.223.202:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1191:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.223.202:443
+[debug] [2019-07-08T13:40:19.121Z] ----------------------------------------------------------------------
+[debug] [2019-07-08T13:40:19.125Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mofrey\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-07-08T13:40:19.126Z] CLI Version:   6.9.2
+[debug] [2019-07-08T13:40:19.126Z] Platform:      win32
+[debug] [2019-07-08T13:40:19.126Z] Node Version:  v8.16.0
+[debug] [2019-07-08T13:40:19.127Z] Time:          Mon Jul 08 2019 14:40:19 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2019-07-08T13:40:19.127Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-08T13:40:19.144Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-08T13:40:19.145Z] > authorizing via signed-in user
+[debug] [2019-07-08T13:40:19.145Z] [iam] checking project cslmis-provider for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-07-08T13:40:19.148Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cslmis-provider:testIamPermissions  
+
+[debug] [2019-07-08T13:40:40.210Z] Error: connect ETIMEDOUT 216.58.223.202:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1191:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.223.202:443
+[debug] [2019-08-19T22:43:41.105Z] ----------------------------------------------------------------------
+[debug] [2019-08-19T22:43:41.109Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mofrey\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-08-19T22:43:41.109Z] CLI Version:   6.9.2
+[debug] [2019-08-19T22:43:41.109Z] Platform:      win32
+[debug] [2019-08-19T22:43:41.109Z] Node Version:  v8.16.0
+[debug] [2019-08-19T22:43:41.110Z] Time:          Mon Aug 19 2019 23:43:41 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2019-08-19T22:43:41.110Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-19T22:43:41.171Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-19T22:43:41.171Z] > authorizing via signed-in user
+[debug] [2019-08-19T22:43:41.171Z] [iam] checking project cslmis for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-08-19T22:43:41.173Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-19T22:43:41.173Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-19T22:43:42.238Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-19T22:43:42.301Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cslmis:testIamPermissions  
+
+[debug] [2019-08-19T22:43:46.128Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-19T22:43:46.132Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cslmis  
+ 
+[debug] [2019-08-19T22:43:48.885Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'cslmis'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-08-19T22:43:48.899Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/cslmis/versions  
+
+[debug] [2019-08-19T22:43:51.983Z] <<< HTTP RESPONSE 200
+[info] i  hosting[cslmis]: beginning deploy...
+[info] i  hosting[cslmis]: found 123 files in dist
+[debug] [2019-08-19T22:43:52.045Z] [hosting] hash cache [ZGlzdA] not populated
+[debug] [2019-08-19T22:43:55.044Z] [hosting] hash cache [ZGlzdA] stored for 123 files
+[debug] [2019-08-19T22:43:55.044Z] [hosting][hash queue][FINAL]
+[debug] [2019-08-19T22:43:55.044Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/cslmis/versions/4b17513a49093a09:populateFiles  
+ <request body omitted>
+[debug] [2019-08-19T22:43:59.496Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-19T22:43:59.548Z] [hosting][populate queue][FINAL]
+[debug] [2019-08-19T22:43:59.548Z] [hosting] uploads queued: 86
+[debug] [2019-08-19T22:44:32.345Z] [uploadQueue] Retrying task abf07ac5ee9f4dfefc4508267741712bb09b9620f1357128005eca3d8a079aeb
+[debug] [2019-08-19T22:44:34.204Z] [uploadQueue] Retrying task c30363c9388a438e44538a8b77bc6afc6ddebd5ee0d966e3f4acc798202c3398
+[debug] [2019-08-19T22:44:43.660Z] [uploadQueue] Retrying task abf07ac5ee9f4dfefc4508267741712bb09b9620f1357128005eca3d8a079aeb
+[debug] [2019-08-19T22:44:45.688Z] [uploadQueue] Retrying task c30363c9388a438e44538a8b77bc6afc6ddebd5ee0d966e3f4acc798202c3398
+[debug] [2019-08-19T22:44:45.828Z] [uploadQueue] Retrying task f082e7a0c2ec7195d8811b1a114c600d83a5f2064496bba73bd8064afb0a6487
+[debug] [2019-08-19T22:44:48.087Z] [uploadQueue] Retrying task eb87a70b01ce83eb3ce604dc49f87c1c90facccf2d426cc7c5625ae3d4a3b6ef
+[debug] [2019-08-19T22:44:48.235Z] [uploadQueue] Retrying task 0b6a4d5bc3b9dd82b81151a99b9a9876bdcd4f4a9dcc800b4da07621ab9ce564
+[debug] [2019-08-19T22:44:48.305Z] [uploadQueue] Retrying task b6eaf5fe856072ed77a6c19f092b019008c60266558ab6989fe602281034a6e1
+[debug] [2019-08-19T22:44:49.503Z] [uploadQueue] Retrying task f8e035b1f05ab920308b3028bc78060dec8ba7324cd73aba9ebfbd03e4edfe79
+[debug] [2019-08-19T22:44:50.274Z] [uploadQueue] Retrying task 4dca114ffa527ac2c2acfda3312e8257d2868a8d6ce4f6f48670ac6c310d9390
