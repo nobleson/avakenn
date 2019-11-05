@@ -1,15 +1,15 @@
 <template>
-<div class="wrapper " style="background-color:#e0e0e0">
+<div class="wrapper " style="background-color:#fafafa">
   
   <div class="top mt-3">
-    <h1 class="font-weight-bold " style="color:blue">Welcome to World Wide Computer Training Center</h1>
+    <h4 class="font-weight-bold " style="color:blue">Welcome to World Wide Computer Training Center</h4>
   </div>
     <div class="section" >
       <mdb-carousel :interval="8000" showControls showIndicators  height="300">
           <mdb-carousel-item img src="/static/bg1.png" alt="First slide" />
           <mdb-carousel-item img src="/static/B2.png" alt="Second slide" />
           <mdb-carousel-item img src="/static/bg3.png" alt="Third slide" />
-        </mdb-carousel>
+        </mdb-carousel> 
     </div>
     <div class="main">
        <mdb-row>
@@ -59,11 +59,11 @@
               <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                 <b-card-body>
                   <b-card-text class="font-weight-bold">
-                    Worldwide computer training institute offers computer training to people in three durations with each having a rewarding certificate that will be issued to the graduands. Below is detail the durations and courses.
+                    Worldwide computer training institute offers computer training to people in three durations with each having a rewarding certificate that will be issued to the graduate. Below is detail the durations and courses.
                   </b-card-text>
                   Areas of Study (Course Units)
-                  <b-card-text>
-                    Three Months (Certificate of attendance is rewarded to grandaunts)
+                  <b-card-text class="font-weight-bold">
+                    Three Months (Certificate of attendance is rewarded to graduate)
                   </b-card-text>
                   <b-card-text>
                     1.	Computer appreciation
@@ -81,7 +81,7 @@
                      5.	Internet
                   </b-card-text>
                   <b-card-text class="font-weight-bold">
-                    	Six Months (Diploma certificate is rewarded to grandaunts)
+                    	Six Months (Diploma certificate is rewarded to graduate)
                   </b-card-text>
                   Areas of Study (Course Units)
                   <b-card-text  class="font-weight-bold">
@@ -109,7 +109,7 @@
                    7.	Internet
                   </b-card-text>
                   <b-card-text class="font-weight-bold">
-                    	Nine Months (Diploma Certificate is rewarded to grandaunts)
+                    	Nine Months (Diploma Certificate is rewarded to graduate)
                   </b-card-text>
                   <b-card-text  class="font-weight-bold">
                   Desktop Publishing and Data Processing
@@ -165,7 +165,9 @@
                 <b-card-body>
                   <b-card-text>
                     a.	Candidates seeking admission into worldwide computer school must have the ability to read and write. That is, it should be at least people who sat for JSSCE examination.
-                    b.	It should be people that are God fearing.
+                  </b-card-text>
+                  <b-card-text>
+                     b.	It should be people that are God fearing.
                   </b-card-text>
                   <b-card-text></b-card-text>
                 </b-card-body>
@@ -411,17 +413,43 @@
     
       </mdb-col>
        <mdb-col md="4" class="mx-auto mt-2">
-       <div>
-          <mdb-list-group class="about">
-          <mdb-list-group-item  :active="true">Training Programmes</mdb-list-group-item>
-          <mdb-list-group-item >Three Months (Certificate of attendance is rewarded to grandaunts)</mdb-list-group-item>
-          <mdb-list-group-item >Six Months (Diploma certificate is rewarded to grandaunts)</mdb-list-group-item>
-          <mdb-list-group-item >Nine Months (Diploma Certificate is rewarded to grandaunts)</mdb-list-group-item>
-         
-        </mdb-list-group>
-          <hr/>
+          <mdb-card class="card-image" style="background-image: url(/static/55.jpg)">
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div>
+              <h5 class="white-text" >
+                <mdb-icon icon="graduation-cap fa fa-4x" style="color:white" /> </h5>
+              <p>
+                Three Months (Certificate is rewarded to graduate)  
+              </p>
+            </div>
+          </div>
+        </mdb-card>
         
-       </div>
+        <mdb-card class="card-image mt-4" style="background-image: url(/static/55.jpg)">
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div>
+              <h5 class="white-text" >
+                <mdb-icon icon="graduation-cap fa fa-4x" style="color:white" /> </h5>
+              <p>
+               Six Months (Diploma certificate is rewarded to graduate)  
+              </p>
+            </div>
+          </div>
+        </mdb-card>
+
+
+        <mdb-card class="card-image mt-4" style="background-image: url(/static/55.jpg)">
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div>
+              <h5 class="white-text" >
+                <mdb-icon icon="graduation-cap fa fa-4x" style="color:white" /> </h5>
+              <p>
+               Nine Months (Diploma Certificate is rewarded to graduate)
+              </p>
+            </div>
+          </div>
+        </mdb-card>
+     
       </mdb-col>
     </mdb-row>
    
@@ -430,11 +458,12 @@
   </div>
 </template>
 <script>
-import {  mdbAccordion, mdbJumbotron, mdbView, mdbMask, mdbBtn, mdbTestimonial, mdbAvatar, mdbListGroupItem, mdbCarousel, mdbCarouselItem, mdbContainer, mdbRow, mdbCol, mdbIcon, mdbListGroup, mdbNavItem } from 'mdbvue';
+import { mdbCard, mdbAccordion, mdbJumbotron, mdbView, mdbMask, mdbBtn, mdbTestimonial, mdbAvatar, mdbListGroupItem, mdbCarousel, mdbCarouselItem, mdbContainer, mdbRow, mdbCol, mdbIcon, mdbListGroup, mdbNavItem } from 'mdbvue';
 
 export default {
   name: 'TrainingSchoolPage',
   components: {
+    mdbCard,
     mdbContainer,
     mdbRow,
     mdbCol,

@@ -8,22 +8,22 @@
       </mdb-carousel>
  
     <div class="text-center"  style="background-color:#e0e0e0 ">
-        <h5 class="blue-text font-weight-bold py-2 mb-4">We are the leading leading provider of high grade computer systems and accessories at wholesale price, we also provide retailing  services </h5>
+        <h6 class="blue-text font-weight-bold py-2 mb-4 boot">We are the leading leading provider of high grade computer systems and accessories at wholesale price, we also provide retailing  services </h6>
     </div>
     <hr class="my-3"/>
   <section   >
-   <h5 class="  blue-text text-center py-3 "> We are Dealers in all kinds of Computer accessories: Cables & Interconnects, Lightning Cables, Power Cables,
+   <h6 class="blue-text text-center py-3 boot"> We are Dealers in all kinds of Computer accessories: Cables & Interconnects, Lightning Cables, Power Cables,
           Memory Cards. Micro SD Cards, SD Cards,
           Printer Ink & Toner. Inkjet Printer Ink. Laser Printer Drums & Toner,
           Uninterruptible Power Supply (UPS),
           USB Hubs,
           Keyboards, Mice & Accessories. Mice. Keyboards,
           Blue Light Blocking Glasses,
-          Game Hardware. PC Game Hardware,</h5> 
-    <div class="ml-3 mr-3 mb-3 ">
+          Game Hardware. PC Game Hardware,</h6> 
+    <div>
       <mdb-row>
-            <mdb-col md="3">
-              <mdb-card narrow ecommerce class="mb-2">
+        <mdb-col md="12" xl="" lg="3" sm="3">
+         <mdb-card narrow ecommerce class="mb-2">
                 <mdb-view hover cascade>
                   <mdb-card-image waves top src="/static/plaza/keyboard.png" alt="sample photo"/>
                   <a><mdb-mask overlay="white-slight" waves/></a>
@@ -32,19 +32,18 @@
                   <a href="" class="text-muted">
                     <h5>Accessories</h5>
                   </a>
-                  <mdb-card-text>Black Circle USB Keyboard C23</mdb-card-text>
-                  <mdb-card-title class="my-3">Keyboard</mdb-card-title>
+                  <mdb-card-text >Black Circle USB Keyboard C23</mdb-card-text>
+                  <mdb-card-title class="my-3" style="font-size:16px">Keyboard</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px">Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px">Affordable Price</span>
                     <span class="float-right">
-                      
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
               </mdb-card>
-            </mdb-col>
-            <mdb-col md="3" class="clearfix d-none d-md-block">
-              <mdb-card narrow ecommerce class="mb-2">
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card narrow ecommerce class="mb-2">
                 <mdb-view hover cascade>
                   <mdb-card-image waves top src="/static/plaza/sandisk.png" alt="sample photo"/>
                   <a><mdb-mask overlay="white-slight" waves/></a>
@@ -54,18 +53,17 @@
                     <h5>Accessories</h5>
                   </a>
                   <mdb-card-text>Sandisk cruzer blade 16GB USB 2.0 Flashdrive</mdb-card-text>
-                  <mdb-card-title class="my-3">SANDISK Flash drives</mdb-card-title>
+                  <mdb-card-title class="my-3" style="font-size:16px">Sandisk Flash drives</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px">Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px">Affordable Price</span>
                     <span class="float-right">
-                      
-                    </span>
+                                          </span>
                   </mdb-card-footer>
                 </mdb-card-body>
               </mdb-card>
-            </mdb-col>
-            <mdb-col md="3" class="clearfix d-none d-md-block">
-              <mdb-card narrow ecommerce class="mb-2">
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+          <mdb-card narrow ecommerce class="mb-2">
                 <mdb-view hover cascade>
                   <mdb-card-image waves top src="/static/DSC_8384.JPG" alt="sample photo"/>
                   <a><mdb-mask overlay="white-slight" waves/></a>
@@ -74,19 +72,18 @@
                   <a href="" class="text-muted">
                     <h5>Accessories</h5>
                   </a>
-                  <mdb-card-text>Desktop Computers</mdb-card-text>
-                  <mdb-card-title class="my-3">Desktops</mdb-card-title>
+                  <mdb-card-text style="font-size:16px">Desktop Computers</mdb-card-text>
+                  <mdb-card-title class="my-3" style="font-size:16px">Desktops</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
-                      
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
               </mdb-card>
-            </mdb-col>
-             <mdb-col md="3" class="clearfix d-none d-md-block">
-              <mdb-card narrow ecommerce class="mb-2">
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+          <mdb-card narrow ecommerce class="mb-2">
                 <mdb-view hover cascade>
                   <mdb-card-image waves top src="/static/plaza/chargers.png" alt="sample photo"/>
                   <a><mdb-mask overlay="white-slight" waves/></a>
@@ -96,26 +93,23 @@
                     <h5>Laptop Chargers</h5>
                   </a>
                   <mdb-card-text>Hp chargers, samgung, Lenovo, Asus, Acer</mdb-card-text>
-                  <mdb-card-title class="my-3">Laptop Chargers</mdb-card-title>
+                  <mdb-card-title  style="font-size:16px" class="my-3">Laptop Chargers</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
               </mdb-card>
-            </mdb-col>
-          </mdb-row>
+        </mdb-col>
+      </mdb-row>
       </div>
-  </section>
-
-  <section class="mt-3">
-     <h4 class="font-weight-bold   py-3 ">Pupolar Sales</h4> 
-    <div class="ml-3 mr-3 mb-3 ">
+      <div class="mt-3">
+        <h4 class="font-weight-bold   py-3 ">Pupolar Sales</h4>
       <mdb-row>
-            <mdb-col md="3">
-             <mdb-card wide>
+        <mdb-col md="12" xl="" lg="3" sm="3">
+         <mdb-card wide class="mb-2">
               <mdb-view hover cascade>
                 <a href="#!">
                   <mdb-card-image src="/static/plaza/catridge.png" alt="Card image cap" ></mdb-card-image>
@@ -127,18 +121,18 @@
                     <h5>Accessories</h5>
                   </a>
                   <mdb-card-text>Toner Catridge</mdb-card-text>
-                  <mdb-card-title class="my-3">Hp printers</mdb-card-title>
+                  <mdb-card-title  style="font-size:16px" class="my-3">Hp printers</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
             </mdb-card>
-            </mdb-col>
-            <mdb-col md="3" class="clearfix d-none d-md-block">
-              <mdb-card wide>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card wide class="mb-2">
             <mdb-view hover cascade>
               <a href="#!">
                 <mdb-card-image src="/static/ink.png" alt="Card image cap" ></mdb-card-image>
@@ -150,18 +144,18 @@
                     <h5>Accessories</h5>
                   </a>
                   <mdb-card-text>Ink Jet Printers & Catridge</mdb-card-text>
-                  <mdb-card-title class="my-3">Ink Jets</mdb-card-title>
+                  <mdb-card-title  style="font-size:16px" class="my-3">Ink Jets</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
           </mdb-card>
-            </mdb-col>
-            <mdb-col md="3" class="clearfix d-none d-md-block">
-                <mdb-card wide>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+            <mdb-card wide class="mb-2">
               <mdb-view hover cascade>
                 <a href="#!">
                   <mdb-card-image src="/static/print.png" alt="Card image cap" ></mdb-card-image>
@@ -173,19 +167,18 @@
                     <h5>Accessories</h5>
                   </a>
                   <mdb-card-text>Uk Used Printer Machines</mdb-card-text>
-                  <mdb-card-title class="my-3">Printers</mdb-card-title>
+                  <mdb-card-title  style="font-size:16px" class="my-3">Printers</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
             </mdb-card>
-            </mdb-col>
-
-             <mdb-col md="3" class="clearfix d-none d-md-block">
-              <mdb-card wide>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card wide class="mb-2">
             <mdb-view hover cascade>
               <a href="#!">
                 <mdb-card-image src="/static/plaza/cables.png" alt="Card image cap" ></mdb-card-image>
@@ -197,51 +190,22 @@
                     <h5>Accessories</h5>
                   </a>
                   <mdb-card-text> HDMI, VGA, printer cables etc</mdb-card-text>
-                  <mdb-card-title class="my-3">Computer Cables</mdb-card-title>
+                  <mdb-card-title class="my-3"  style="font-size:16px">Computer Cables</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
-                      
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
           </mdb-card>
-            </mdb-col>
-          </mdb-row>
+        </mdb-col>
+      </mdb-row>
       </div>
-  </section>
-
-  <section class="mt-3">
-     <h4 class="font-weight-bold   py-3 ">Other Products</h4> 
-    <div class="ml-3 mr-3 mb-3 ">
+      <div class="mt-3">
+         <h4 class="font-weight-bold   py-3 ">Other Products</h4>  
       <mdb-row>
-            <mdb-col md="3">
-              <mdb-card>
-                <mdb-view hover>
-                  <a href="#!">
-                    <mdb-card-image
-                      src="/static/toner.png"
-                      alt="Card image cap"/>
-                    <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-                  </a>
-                </mdb-view>
-               <mdb-card-body cascade>
-                  <a href="" class="text-muted">
-                    <h5>Accessories</h5>
-                  </a>
-                  <mdb-card-text>Laser Jet Toner</mdb-card-text>
-                  <mdb-card-title class="my-3">Toners</mdb-card-title>
-                  <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
-                    <span class="float-right">
-                      
-                    </span>
-                  </mdb-card-footer>
-                </mdb-card-body>
-              </mdb-card>
-            </mdb-col>
-            <mdb-col md="3" class="clearfix d-none d-md-block">
-               <mdb-card>
+        <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card class="mb-2">
                 <mdb-view hover>
                   <a href="#!">
                     <mdb-card-image
@@ -254,19 +218,44 @@
                   <a href="" class="text-muted">
                     <h5>Accessories</h5>
                   </a>
-                  <mdb-card-text>Ink Jet </mdb-card-text>
-                  <mdb-card-title class="my-3">Ink</mdb-card-title>
+                  <mdb-card-text>Ink Jets</mdb-card-text>
+                  <mdb-card-title class="my-3"  style="font-size:16px">Ink</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
               </mdb-card>
-            </mdb-col>
-            <mdb-col md="3" class="clearfix d-none d-md-block">
-               <mdb-card>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card class="mb-2">
+                <mdb-view hover>
+                  <a href="#!">
+                    <mdb-card-image
+                      src="/static/toner.png"
+                      alt="Card image cap"/>
+                    <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
+                  </a>
+                </mdb-view>
+                <mdb-card-body cascade>
+                  <a href="" class="text-muted">
+                    <h5>Accessories</h5>
+                  </a>
+                  <mdb-card-text>Laser jet Toner</mdb-card-text>
+                  <mdb-card-title class="my-3"  style="font-size:16px">Toners</mdb-card-title>
+                  <mdb-card-footer color="white" textColor="black" class="px-1">
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
+                    <span class="float-right">
+                      
+                    </span>
+                  </mdb-card-footer>
+                </mdb-card-body>
+              </mdb-card>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+            <mdb-card class="mb-2">
                 <mdb-view hover>
                   <a href="#!">
                     <mdb-card-image
@@ -280,19 +269,18 @@
                     <h5>Accessories</h5>
                   </a>
                   <mdb-card-text>Catridge Drums</mdb-card-text>
-                  <mdb-card-title class="my-3">Drums</mdb-card-title>
+                  <mdb-card-title class="my-3"  style="font-size:16px">Drums</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
               </mdb-card>
-            </mdb-col>
-
-             <mdb-col md="3" class="clearfix d-none d-md-block">
-              <mdb-card>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card class="mb-2">
                 <mdb-view hover>
                   <a href="#!">
                     <mdb-card-image
@@ -306,25 +294,23 @@
                     <h5>Accessories</h5>
                   </a>
                   <mdb-card-text>Game Handles</mdb-card-text>
-                  <mdb-card-title class="my-3"> Game Pads/Joy Sticks</mdb-card-title>
+                  <mdb-card-title class="my-3"  style="font-size:16px"> Game Pads/Joy Sticks</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
               </mdb-card>
-            </mdb-col>
-          </mdb-row>
+        </mdb-col>
+      </mdb-row>
       </div>
-  </section>
-  <section class="mt-3">
-     <h4 class="font-weight-bold   py-3 ">Lots more our new arival</h4> 
-    <div class="ml-3 mr-3 mb-3 ">
+      <div class="mt-3">
+         <h4 class="font-weight-bold   py-3 ">Lots more our new arival</h4> 
       <mdb-row>
-            <mdb-col md="3">
-              <mdb-card cascade ecommerce>
+        <mdb-col md="12" xl="" lg="3" sm="3">
+          <mdb-card cascade ecommerce class="mb-2">
               <mdb-view cascade>
                 <mdb-card-image src="/static/deskt.png" top alt="sample photo" />
                 <mdb-mask overlay="white-slight" waves />
@@ -334,18 +320,18 @@
                     <h5>Computer</h5>
                   </a>
                   <mdb-card-text>Desktop Computers</mdb-card-text>
-                  <mdb-card-title class="my-3">Desktop</mdb-card-title>
+                  <mdb-card-title  style="font-size:16px"  class="my-3">Desktop</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
             </mdb-card>
-            </mdb-col>
-            <mdb-col md="3">
-              <mdb-card cascade ecommerce>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card cascade ecommerce class="mb-2">
               <mdb-view cascade>
                 <mdb-card-image src="/static/lapppp.png" top alt="sample photo" />
                 <mdb-mask overlay="white-slight" waves />
@@ -355,18 +341,18 @@
                     <h5>Computer</h5>
                   </a>
                   <mdb-card-text>Laptop Computers</mdb-card-text>
-                  <mdb-card-title class="my-3">Laptops</mdb-card-title>
+                  <mdb-card-title  style="font-size:16px" class="my-3">Laptops</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
             </mdb-card>
-            </mdb-col>
-            <mdb-col md="3" class="clearfix d-none d-md-block">
-                  <mdb-card cascade ecommerce>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card cascade ecommerce class="mb-2">
                         <mdb-view cascade>
                           <mdb-card-image src="/static/modem.png" top alt="sample photo" />
                           <mdb-mask overlay="white-slight" waves />
@@ -376,19 +362,18 @@
                     <h5>Accessoriess</h5>
                   </a>
                   <mdb-card-text>Modems</mdb-card-text>
-                  <mdb-card-title class="my-3">Modem</mdb-card-title>
+                  <mdb-card-title class="my-3"  style="font-size:16px">Modem</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
                       
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
                       </mdb-card>
-            </mdb-col>
-
-             <mdb-col md="3" class="clearfix d-none d-md-block">
-              <mdb-card cascade ecommerce>
+        </mdb-col>
+         <mdb-col md="12" xl="" lg="3" sm="3">
+           <mdb-card cascade ecommerce class="mb-2">
                 <mdb-view cascade>
                   <mdb-card-image src="/static/prrrr.png" top alt="sample photo" />
                   <mdb-mask overlay="white-slight" waves />
@@ -398,28 +383,27 @@
                     <h5>Accessories</h5>
                   </a>
                   <mdb-card-text>Printers</mdb-card-text>
-                  <mdb-card-title class="my-3">Printer Machines</mdb-card-title>
+                  <mdb-card-title class="my-3"  style="font-size:16px">Printer Machines</mdb-card-title>
                   <mdb-card-footer color="white" textColor="black" class="px-1">
-                    <span class="float-left font-weight-bold" style="font-size:25px"> Affordable Price</span>
+                    <span class="float-left font-weight-bold" style="font-size:16px"> Affordable Price</span>
                     <span class="float-right">
-                      
                     </span>
                   </mdb-card-footer>
                 </mdb-card-body>
               </mdb-card>
-            </mdb-col>
-          </mdb-row>
+        </mdb-col>
+      </mdb-row>
       </div>
   </section>
-  
+
  <hr class="my-3"/>
    <section  class="my-5" style="background-color:#fff  ">
      <div class=" blue-text infor  ml-4" >
       
-      <h5 class="font-weight-bold">Computer Plaza - The leading provider of High grade Computers accessories</h5>
-       <p>
+      <h5 class=" font-weight-bold">Computer Plaza - The leading provider of High grade Computers accessories</h5>
+       <p class="">
 
-        We are the leading provider of high grade computer systems and accessories at whole price, we also provide retail services and repairs of machines such as printers/photocopier, stabilers, PC/Servers
+        We are the leading provider of high grade computer systems and accessories at wholesale price, we also provide retail services and repairs of machines such as printers/photocopier, stabilers, PC/Servers
                 We are the leading provider of high grade computer systems and accessories at whole price, we also provide retail services and repairs of machines such as printers/photocopier, stabilers, PC/Servers
 
        </p>
@@ -453,11 +437,10 @@
       </mdb-row>
       <hr />
       <mdb-row class="d-flex align-items-center">
-        
         <mdb-col md="4" lg="4" class="ml-lg-0">
           <div class="text-center text-md-right">
             <ul class="list-unstyled list-inline">
-              <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-3"><i class="fab fa-facebook"></i></a></li>
               <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fab fa-twitter"></i></a></li>
               <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fab fa-google-plus"></i></a></li>
               <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fab fa-linkedin-in"></i></a></li>
@@ -472,11 +455,12 @@
   </div>
 </template>
 <script>
-import { mdbMask, mdbFooter, mdbCardImage, mdbTooltip, mdbBadge, mdbView, mdbCardTitle, mdbCardFooter, mdbEdgeHeader, mdbTestimonial, mdbCard, mdbCardBody, mdbCardUp, mdbAvatar, mdbGoogleMap, mdbCarousel, mdbCarouselItem, mdbContainer, mdbRow, mdbCol, mdbIcon, mdbJumbotron, mdbListGroup, mdbNavItem } from 'mdbvue';
+import { mdbCardText, mdbMask, mdbFooter, mdbCardImage, mdbTooltip, mdbBadge, mdbView, mdbCardTitle, mdbCardFooter, mdbEdgeHeader, mdbTestimonial, mdbCard, mdbCardBody, mdbCardUp, mdbAvatar, mdbGoogleMap, mdbCarousel, mdbCarouselItem, mdbContainer, mdbRow, mdbCol, mdbIcon, mdbJumbotron, mdbListGroup, mdbNavItem } from 'mdbvue';
 
 export default {
   name: 'BootCampPage',
   components: {
+    mdbCardText,
     mdbFooter,
     mdbGoogleMap,
     mdbContainer,
@@ -514,11 +498,7 @@ export default {
   font-weight: bold;
 }
 .boot{
-font-size: 30px;
-padding-top:20px;
-padding-left:20px;
-border-left: 1px solid darkblue;
-font-weight: bold;
+  justify-content: end;
 text-align:center;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -541,5 +521,6 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-bottom:30px;
 
 }
+
 
 </style>

@@ -4,7 +4,7 @@
  
      <section >
         <mdb-carousel :interval="8000" showControls showIndicators>
-          
+           <mdb-carousel-item img src="/static/WOLRDWIDE.jpg" alt="First slide" />
           <mdb-carousel-item img src="../../static/Banner2.png" mask="black-slight" alt="Third slide">
             <mdb-carousel-caption animation="fadeInDown" title="WorldWide Computers Printing Press" text="Printing Press Section"></mdb-carousel-caption>
           </mdb-carousel-item>
@@ -16,21 +16,20 @@
       <div>
   <hr class="my-5">
     <div class="mb-4">
-            <h1 class="text-center mt-5 font-weight-bold">Our services</h1>
-            </div>
-
+        <h1 class="text-center mt-5 font-weight-bold">Our services</h1>
+    </div>
         <mdb-row>
-          <mdb-col  class="mb-5">
+          <mdb-col  md="4" class="mb-5">
             <mdb-col col="2" md="2" class="float-left">
               <mdb-icon fas icon="school" size="2x" class="pink-text" />
             </mdb-col>
             <mdb-col col="10" md="8" lg="10" class="float-right">
               <h5 class="font-weight-bold">Computer School</h5>
               <p class="blue-text">We train our students with hands on practical skills using application packages such as Microsoft Office, Coreldraw, Photoshop etc. We run Certificate and Diploma programmes</p>
-              <mdb-nav-item router href="/school" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
+              <mdb-nav-item to="/school" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
             </mdb-col>
           </mdb-col>
-          <mdb-col  class="mb-5">
+          <mdb-col md="4"  class="mb-5">
             <mdb-col col="2" md="2" class="float-left">
               <mdb-icon icon="business-time" size="2x" class="blue-text" />
             </mdb-col>
@@ -38,61 +37,58 @@
               <h4 class="font-weight-bold">Cyber Cafe</h4>
               <p class="blue-text">We provide business service and internet. We help customers publish content, reach out to customers and do smart businesses. we help customers find good resource online to improve their businesses</p>
           
-              <mdb-nav-item router href="/cafe" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
+              <mdb-nav-item to="/cafe" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
             </mdb-col>
           </mdb-col>
-          <mdb-col  class="mb-5">
+          <mdb-col md="4" class="mb-5">
             <mdb-col col="2" md="2" class="float-left">
               <mdb-icon icon="print" size="2x" class="green-text" />
             </mdb-col>
             <mdb-col col="10" md="8" lg="10" class="float-right">
               <h4 class="font-weight-bold">Printing Press</h4>
               <p class="blue-text">We provide high quality content that meet business need. Our printing press include modern equiptment that produce industrial standard print using state of art tools that put smiles in the face of our customers.</p>
-              
-              <mdb-nav-item router href="/printingpress" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
+              <mdb-nav-item to="/printingpress" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
             </mdb-col>
           </mdb-col>
         </mdb-row>
         <hr>
         <div class="mt-4">
             <mdb-row>
-           <mdb-col class="mb-5">
+           <mdb-col md="4" class="mb-5">
             <mdb-col col="2" md="2" class="float-left">
               <mdb-icon icon="building" size="2x" class="pink-text" />
             </mdb-col>
             <mdb-col col="10" md="8" lg="10" class="float-right">
-              <h4 class="font-weight-bold">Boot Camp</h4>
+              <h4 class="font-weight-bold">BootCamp</h4>
               <p class="blue-text">We develop interlectual capital and provide modern skills for global career seeker. Our Bootcamp stream line to ICT, Leadership, Enterprenuership, Creative Industry, Strategic Thinking, Continue Education. </p>
-              <mdb-nav-item router href="/avakennbootcamp" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
+              <mdb-nav-item to="/avakennbootcamp" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
             </mdb-col>
           </mdb-col>
        
-         <mdb-col  class="mb-5">
+         <mdb-col md="4" class="mb-5">
             <mdb-col col="2" md="2" class="float-left">
               <mdb-icon icon="microphone-alt" size="2x" class="pink-text" />
             </mdb-col>
             <mdb-col col="10" md="8" lg="10" class="float-right">
               <h4 class="font-weight-bold">Studio</h4>
               <p class="blue-text">We make Audio and Movie Production. We make movie makers to create high quality multimedia contents to spice up local content to meet global standard. We provide golden opportunity for career seekers. </p>
-              <mdb-nav-item router href="/avakennbootcamp" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
+              <mdb-nav-item to="/avakennbootcamp" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
             </mdb-col>
           </mdb-col>
-      
-
-         <mdb-col  class="mb-5">
+    
+         <mdb-col md="4" class="mb-5">
             <mdb-col col="2" md="2" class="float-left">
               <mdb-icon icon="laptop" size="2x" class="pink-text" />
             </mdb-col>
             <mdb-col col="10" md="8" lg="10" class="float-right">
               <h4 class="font-weight-bold">Computer Plaza</h4>
               <p class="blue-text">We are the leading provider of high grade computer systems and accessories at whole price, we also provide retail services and repairs of machines such as printers/photocopier, stabilers, PC/Servers</p>
-              <mdb-nav-item router href="/avakennbootcamp" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
+              <mdb-nav-item to="/computerplaza" waves-fixed><mdb-btn size="sm" color="blue">Explore more</mdb-btn></mdb-nav-item>
             </mdb-col>
           </mdb-col>
         </mdb-row>
         </div>
-    
-</div>
+      </div>
    
     </mdb-container>
     <mdb-container>
@@ -121,9 +117,9 @@
     <mdb-carousel :interval="4000" showControls multi slide leftIcon="angle-left fa-3x pr-3" rightIcon="angle-right fa-3x pl-3" :floating="false" >
        
         <mdb-carousel-item>
-          <h2 class=" text-center h1-responsive font-weight-bold my-3">Our Excutives</h2>
+          <h2 class=" text-center h1-responsive font-weight-bold my-3">Our Executives</h2>
           <mdb-row>
-              <mdb-col>
+              <mdb-col md="3">
               <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/moses.jpg" class="rounded-circle img-fluid" alt="First sample avatar image"/>
@@ -133,7 +129,7 @@
           </mdb-testimonial>
             </mdb-col>
             
-            <mdb-col>
+            <mdb-col md="3">
               <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/mr.png" class="rounded-circle img-fluid" alt="First sample avatar image"/>
@@ -142,7 +138,7 @@
             <h6 class="text-center font-weight-bold my-3">Manager</h6>
           </mdb-testimonial>
             </mdb-col>
-           <mdb-col>
+           <mdb-col md="3">
               <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/pr.png" class="rounded-circle img-fluid" alt="First sample avatar image"/>
@@ -151,12 +147,12 @@
             <h6 class="text-center font-weight-bold my-3">Manager</h6>
           </mdb-testimonial>
             </mdb-col>
-            <mdb-col>
+            <mdb-col md="3">
               <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/avatar.png" class="rounded-circle img-fluid" alt="First sample avatar image"/>
             </mdb-avatar>
-            <h4 class="text-center font-weight-bold">Mrs. Iveren Sough Terzungwe</h4>
+            <h4 class="text-center font-weight-bold">Mrs. Faith Iveren Sough Terzungwe</h4>
             <h6 class="text-center font-weight-bold my-3">Manager</h6>
           </mdb-testimonial>
             </mdb-col>
@@ -165,7 +161,7 @@
         </mdb-carousel-item>
        
        <mdb-carousel-item>
-          <h2 class=" text-center h1-responsive font-weight-bold my-3">Our Excutives</h2>
+          <h2 class=" text-center h1-responsive font-weight-bold my-3">Our Executives</h2>
           <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/Dr.png" class="rounded-circle img-fluid" alt="First sample avatar image"/>
@@ -178,7 +174,7 @@
          <mdb-carousel-item>
           <h2 class=" text-center h1-responsive font-weight-bold my-3">Our Excutives</h2>
           <mdb-row>
-             <mdb-col>
+             <mdb-col md="3">
               <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/moses.jpg" class="rounded-circle img-fluid" alt="First sample avatar image"/>
@@ -188,7 +184,7 @@
           </mdb-testimonial>
             </mdb-col>
             
-            <mdb-col>
+            <mdb-col  md="3">
               <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/mr.png" class="rounded-circle img-fluid" alt="First sample avatar image"/>
@@ -197,7 +193,7 @@
             <h6 class="text-center font-weight-bold my-3">Manager</h6>
           </mdb-testimonial>
             </mdb-col>
-           <mdb-col>
+           <mdb-col  md="3">
               <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/pr.png" class="rounded-circle img-fluid" alt="First sample avatar image"/>
@@ -206,12 +202,12 @@
             <h6 class="text-center font-weight-bold my-3">Manager</h6>
           </mdb-testimonial>
             </mdb-col>
-            <mdb-col>
+            <mdb-col  md="3">
               <mdb-testimonial>
             <mdb-avatar class="mx-auto mb-4">
               <img src="/static/avatar.png" class="rounded-circle img-fluid" alt="First sample avatar image"/>
             </mdb-avatar>
-            <h4 class="text-center font-weight-bold">Mrs. Iveren Sough Terzungwe</h4>
+            <h4 class="text-center font-weight-bold">Mrs. Faith Iveren Sough Terzungwe</h4>
             <h6 class="text-center font-weight-bold my-3">Manager</h6>
           </mdb-testimonial>
             </mdb-col>
@@ -222,7 +218,188 @@
       
     </mdb-carousel>
   </mdb-container>
+  <div class="mb-4">
+      <h1 class="text-center mt-5 font-weight-bold">Our Event</h1>
+    </div>
+   <div class="mb-4">
+            <p class="text-center blue-text ">
+              We celebrate annnual events such as cultural day. Our cultural day is one of the good 
+              work days that we appear in our cultural attires as happy people free of ethnicity, tribal
+              biases. The great event is celebrated every first Thursday of October. 
+            </p>
+     </div>
+     <mdb-container>
+            <img src="/static/culture/01 (14).JPG" class="image-fluid" width="100%" height="600px"/>
+     </mdb-container>
+          <mdb-row class="mdb-lightbox mt-2">
+            <mdb-col md="2" @click.native="showLightbox2(0)">
+              <figure>
+                <img src="/static/culture/01 (1).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+            <mdb-col md="2" @click.native="showLightbox2(1)">
+              <figure>
+                <img src="/static/culture/01 (14).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(2)">
+              <figure>
+                <img src="/static/culture/01 (15).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(3)">
+              <figure>
+                <img src="/static/culture/01 (2).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+            <mdb-col md="2" @click.native="showLightbox2(4)">
+              <figure>
+                <img src="/static/culture/01 (3).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
 
+            <mdb-col md="2" @click.native="showLightbox2(5)">
+              <figure>
+                <img src="/static/culture/66 (10).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+           
+            <mdb-col md="2" @click.native="showLightbox2(7)">
+              <figure>
+                <img src="/static/culture/01 (7).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+
+             <mdb-col md="2" @click.native="showLightbox2(8)">
+              <figure>
+                <img src="/static/culture/01 (17).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+             <mdb-col md="2" @click.native="showLightbox2(9)">
+              <figure>
+                <img src="/static/culture/44 (3).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+            <mdb-col md="2" @click.native="showLightbox2(9)">
+              <figure>
+                <img src="/static/culture/44 (4).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+              <mdb-col md="2" @click.native="showLightbox2(10)">
+              <figure>
+                <img src="/static/culture/44 (1).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+            <mdb-col md="2" @click.native="showLightbox2(11)">
+              <figure>
+                <img src="/static/culture/44 (2).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+           <mdb-col md="2" @click.native="showLightbox2(12)">
+              <figure>
+                <img src="/static/culture/01 (4).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+            
+ 	         <mdb-col md="2" @click.native="showLightbox2(13)">
+              <figure>
+                <img src="/static/culture/01 (6).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+          <mdb-col md="2" @click.native="showLightbox2(14)">
+              <figure>
+                <img src="/static/culture/01 (8).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+
+            <mdb-col md="2" @click.native="showLightbox2(15)">
+              <figure>
+                <img src="/static/culture/01 (11).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(16)">
+              <figure>
+                <img src="/static/culture/01 (12).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+
+           <mdb-col md="2" @click.native="showLightbox2(17)">
+              <figure>
+                <img src="/static/culture/01 (16).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(18)">
+              <figure>
+                <img src="/static/culture/11 (1).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(19)">
+              <figure>
+                <img src="/static/culture/11 (2).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(20)">
+              <figure>
+                <img src="/static/culture/11 (3).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+          
+            <mdb-col md="2" @click.native="showLightbox2(23)">
+              <figure>
+                <img src="/static/culture/11 (6).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+           
+            <mdb-col md="2" @click.native="showLightbox2(26)">
+              <figure>
+                <img src="/static/culture/1010 (2).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+            <mdb-col md="2" @click.native="showLightbox2(26)">
+              <figure>
+                <img src="/static/culture/1010 (2).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+           
+            <mdb-col md="2" @click.native="showLightbox2(29)">
+              <figure>
+                <img src="/static/culture/1010 (6).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col>
+              <mdb-col md="2" @click.native="showLightbox2(21)">
+              <figure>
+                <img src="/static/culture/11 (4).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(22)">
+              <figure>
+                <img src="/static/culture/11 (5).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+
+            <mdb-col md="2" @click.native="showLightbox2(24)">
+              <figure>
+                <img src="/static/culture/1010 (1).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(32)">
+              <figure>
+                <img src="/static/culture/66 (13).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+            <mdb-col md="2" @click.native="showLightbox2(33)">
+              <figure>
+                <img src="/static/culture/99 (3).JPG" class="img-fluid" alt="">
+              </figure>
+            </mdb-col> 
+          
+          </mdb-row>
+          <mdb-lightbox
+          :visible="visible2"
+          :imgs="imgs2"
+          :index="index2"
+          @hide="handleHide2">
+        </mdb-lightbox>
           <div class="mb-4">
             <h1 class="text-center mt-5 font-weight-bold">Contact Us</h1>
             </div>
@@ -237,8 +414,8 @@
                     <mdb-icon icon="map" class="pr-2"/>Location:
                   </h3>
                   <mdb-row>
-                   <mdb-col md="12" xl="8" lg="8">
-                     <img src="../../static/map.jpg" width="500px" height="400px">
+                   <mdb-col>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Gboko%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
                    </mdb-col>
                   </mdb-row>
                  
@@ -296,11 +473,64 @@
 </template>
 
 <script>
-import {  mdbCardTitle, mdbCardText, mdbCardFooter, mdbCardUp, mdbCardAvatar, mdbCardGroup, mdbAvatar, mdbTextarea, mdbCard, mdbModal, mdbModalHeader, mdbModalTitle, mdbModalBody, mdbModalFooter, mdbLightbox, mdbCarousel, mdbCarouselItem, mdbCarouselCaption, mdbContainer, mdbCol, mdbRow, mdbIcon, mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbBtn, mdbEdgeHeader, mdbCardBody, mdbInput } from 'mdbvue';
+import {  mdbTestimonial, mdbCardTitle, mdbCardText, mdbCardFooter, mdbCardUp, mdbCardAvatar, mdbCardGroup, mdbAvatar, mdbTextarea, mdbCard, mdbModal, mdbModalHeader, mdbModalTitle, mdbModalBody, mdbModalFooter, mdbLightbox, mdbCarousel, mdbCarouselItem, mdbCarouselCaption, mdbContainer, mdbCol, mdbRow, mdbIcon, mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbBtn, mdbEdgeHeader, mdbCardBody, mdbInput } from 'mdbvue';
 
 export default {
   name: 'HomePage',
+  data() {
+    return {
+      imgs2: [
+        '/static/culture/01 (1).JPG',
+        '/static/culture/01 (14).JPG',
+        '/static/culture/01 (15).JPG',
+        '/static/culture/01 (2).JPG',
+        '/static/culture/01 (3).JPG',
+        '/static/culture/66 (10).JPG',
+        '/static/culture/44 (3).JPG',
+        '/static/culture/01 (7).JPG',
+        '/static/culture/01 (17).JPG',
+        '/static/culture/44 (4).JPG',
+        '/static/culture/44 (1).JPG',
+        '/static/culture/44 (2).JPG',
+        '/static/culture/01 (4).JPG',
+        '/static/culture/01 (6).JPG',
+        '/static/culture/01 (8).JPG',
+        '/static/culture/01 (11).JPG',
+        '/static/culture/01 (12).JPG',
+        '/static/culture/01 (16).JPG',
+        '/static/culture/11 (1).JPG',
+        '/static/culture/11 (2).JPG',
+        '/static/culture/11 (3).JPG',
+        '/static/culture/11 (4).JPG',
+        '/static/culture/11 (5).JPG',
+        '/static/culture/11 (6).JPG',
+        '/static/culture/1010 (1).JPG',
+        '/static/culture/1010 (2).JPG',
+        '/static/culture/1010 (3).JPG',
+        '/static/culture/1010 (4).JPG',
+        '/static/culture/1010 (5).JPG',
+        '/static/culture/1010 (6).JPG',
+        '/static/culture/66 (1).JPG',
+        '/static/culture/66 (10).JPG',
+        '/static/culture/66 (13).JPG',
+        '/static/culture/99 (3).JPG'
+      ],
+      visible2: false,
+      index2: 0
+    };
+  },
+  methods: {
+    showLightbox2(index2) {
+      this.index2 = index2;
+      this.visible2 = true;
+    },
+    handleHide2() {
+      this.visible2 = false;
+    }
+  },
   components: {
+    
+    mdbTestimonial,
     mdbCardTitle,
     mdbCardText,
     mdbCardFooter,

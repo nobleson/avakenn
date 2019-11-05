@@ -2,22 +2,19 @@
 <div class="wrapper ">
   
   <div class="top mt-3">
-    <h1 class="font-weight-bold " style="color:red">Welcome to World Wide Computers Business Center</h1>
+    <h5 class="font-weight-bold " style="color:red">Welcome to World Wide Computers Business Center</h5>
   </div>
    <mdb-container>
     <div class="section" >
       <mdb-carousel :interval="8000" showControls showIndicators  height="300">
-          <mdb-carousel-item img src="/static/p1.png" alt="First slide" />
-          <mdb-carousel-item img src="/static/p1.png" alt="Second slide" />
-          <mdb-carousel-item img src="/static/p1.png" alt="Third slide" />
+          <mdb-carousel-item img src="/static/WOLRDWIDE.jpg" alt="First slide" />
         </mdb-carousel>
     </div>
-    
       <hr class="mt-4"/>
     <mdb-row>
     <mdb-col md="12" class="mx-auto ">
      <mdb-row>
-       <mdb-col>
+       <mdb-col md="6">
           <h4 class="font-weight-bold"> Our Business Centre Services include:</h4>
            <ul class="list-unstyled">
                 <li> <mdb-icon  icon="angle-double-right"/>   CyberCafe</li>
@@ -32,7 +29,7 @@
                 <li> <mdb-icon  icon="angle-double-right"/>   Word Processing</li>
         </ul>
          </mdb-col>
-             <mdb-col>
+             <mdb-col  md="6">
           <h4 class="font-weight-bold">BUSINESS CENTRE:</h4>
             For your business needs when on the move, our business center provides a variety of computer services and facilities. Air conditioned for your comfort and conveniently furnitured, we are open at all hours, efficiency guaranteed and always at your service.
           <h4 class="font-weight-bold mt-1">Contact Us</h4>

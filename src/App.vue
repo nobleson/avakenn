@@ -7,14 +7,19 @@
       </mdb-navbar-brand>
       <mdb-navbar-toggler>
         <mdb-navbar-nav center>
-          <mdb-nav-item exact to="/"><h5>Home</h5></mdb-nav-item>
-          <br>
-          <mdb-nav-item to="/school"><h5>Computer School</h5></mdb-nav-item>
-          <mdb-nav-item to="/printingpress"><h5>Printing Press</h5></mdb-nav-item>
-          <mdb-nav-item to="/avakennbootcamp"><h5>Boot Camp</h5></mdb-nav-item>
-          <mdb-nav-item to="/cafe"><h5>Cafe</h5></mdb-nav-item>
-          <mdb-nav-item to="/studio"><h5>Studio</h5></mdb-nav-item>
-          <mdb-nav-item to="/computerplaza"><h5>Computer Plaza</h5></mdb-nav-item>
+          <mdb-nav-item exact to="/"><span style="font-size:16px">Home </span></mdb-nav-item>
+          <mdb-nav-item to="/school"><span style="font-size:16px">Computer School</span></mdb-nav-item>
+          <mdb-nav-item to="/printingpress"><span style="font-size:16px">Printing Press</span></mdb-nav-item>
+          <mdb-nav-item to="/cafe"><span style="font-size:16px">Cafe</span></mdb-nav-item>
+          <mdb-nav-item to="/studio"><span style="font-size:16px">Studio</span></mdb-nav-item>
+          <mdb-nav-item to="/computerplaza"><span style="font-size:16px">Plaza</span></mdb-nav-item>
+         <mdb-dropdown tag="li" class="nav-item">
+            <mdb-dropdown-toggle slot="toggle" tag="a" waves-fixed>BootCamp</mdb-dropdown-toggle>
+             <mdb-dropdown-menu>
+              <mdb-dropdown-item to="/avakennbootcamp">Avk Dev Bootcamp</mdb-dropdown-item>
+              <mdb-dropdown-item to="/course">Courses</mdb-dropdown-item>
+            </mdb-dropdown-menu>
+          </mdb-dropdown>
         </mdb-navbar-nav>
       </mdb-navbar-toggler>
       
@@ -34,10 +39,14 @@
 </template>
 
 <script>
-import { mdbNavbar, mdbContainer, mdbRow, mdbCol, mdbIcon, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbNavbarBrand, mdbFooter } from 'mdbvue';
+import {    mdbDropdown, mdbDropdownItem, mdbDropdownMenu,mdbDropdownToggle, mdbNavbar, mdbContainer, mdbRow, mdbCol, mdbIcon, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbNavbarBrand, mdbFooter } from 'mdbvue';
 export default {
   name: 'app',
   components: {
+    mdbDropdown,
+    mdbDropdownItem,
+    mdbDropdownMenu,
+    mdbDropdownToggle,
     mdbContainer,
     mdbNavbar,
     mdbNavItem,

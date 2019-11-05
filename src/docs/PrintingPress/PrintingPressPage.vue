@@ -1,7 +1,7 @@
 <template>
-<div class="wrapper " style="background-color:#eceff1">
+<div class="wrapper " style="background-color:#fafafa">
   <div class="top mt-3">
-    <h1 class="font-weight-bold " style="color:red">Welcome to World Wide Computers Printing Press</h1>
+    <h4 class="font-weight-bold " style="color:red">Welcome to Printing Press</h4>
   </div>
    <mdb-container class="sect ">
     <div class="section mt-3">
@@ -11,7 +11,7 @@
           <mdb-carousel-item img src="/static/p1.png" alt="Third slide" />
         </mdb-carousel>
     
-    <div ><h3 class="font-weight-bold mt-3" style="color:red">Contact our Printing team on: <mdb-icon icon="phone-square"/> 09078575463, 0807958595</h3></div>
+    <div ><h3 class="font-weight-bold mt-3" style="color:red">Contact our Printing team on: <mdb-icon icon="phone-square"/> 09037004019</h3></div>
       <hr class="mt-4"/>
     <mdb-row>
     <mdb-col md="12" class="mx-auto ">
@@ -33,11 +33,11 @@
       </mdb-col>
       <mdb-col md="7" class="text-md-left ml-3 mt-3">
         <p class="font-weight-normal infor">
-          Our roller printer machine is one of the best of it's kind printer machine with high speed production, and it also produce quality printing of four color plate. 
+          Our rollter printer machine is one of the best of it's kind printer machine with high speed production, and it also produce quality printing of four color plate. 
         </p>
       </mdb-col>
       <mdb-col md="4" offsetMd="1" class="m-3 mt-3">
-        <h6 class="font-weight-bold" style="color:blue">Our Roller printer machine</h6>
+        <h6 class="font-weight-bold" style="color:blue">Our Rollter printer machine</h6>
         <mdb-view  src="/static/IMG_20190816_111038_4.jpg" alt="Sample image for first version of blog listing">
           <a><mdb-mask waves overlay="white-slight"/></a>
         </mdb-view>
@@ -101,7 +101,7 @@
     <h1 class="font-weight-bold mt-5">About Us</h1>
      <mdb-row>
         
-      <mdb-col>
+      <mdb-col md="6">
       
         <p class="infor">
           Our PRINTING PRESS is a well-acclaimed company successfully delivering unmatched quality printing services, is among the most trusted names in the printing industry.
@@ -115,7 +115,7 @@
         </p>
     
       </mdb-col>
-      <mdb-col>
+      <mdb-col  md="6">
      <div class="bob">
         <h4 class="font-weight-bold" style="color:blue">Some of Our latest Prints</h4>
      <div class="bot">

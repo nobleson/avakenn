@@ -29,6 +29,7 @@
               <h5 class="white-text" >
                 <mdb-icon icon="file-audio fa fa-4x" style="color:white" /> </h5>
                <ul class="list-unstyled">
+                <li>  <mdb-icon  icon="angle-double-right"/> Disk Platting</li>
                 <li>  <mdb-icon  icon="angle-double-right"/> Audio Mixing</li>
                 <li>  <mdb-icon  icon="angle-double-right"/> CD / DVD Plate Burning</li>
                 <li>  <mdb-icon  icon="angle-double-right"/> Audio Recording</li>
@@ -132,6 +133,7 @@
                     </li>
                   </ul>
                     </div>
+                  
                 </mdb-col>
               </mdb-row>
             </mdb-card-body>
@@ -139,9 +141,10 @@
         </mdb-row>
       </div>
       </mdb-container>
+      <div  class=" py-5"></div>
   </section>
   
- <hr class="my-5 mt-4"/>
+ <hr class="font-weight-bold"/>
    
   </div>
 </template>

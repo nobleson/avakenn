@@ -14,27 +14,27 @@
   <section  style="background-color:#e0e0e0 ">
    <h1 class="font-weight-bold  text-center py-3 ">Our Streams</h1> 
     <mdb-row>
-     <mdb-container>
-       <mdb-row>
+     <mdb-container >
+       <mdb-row class="ml-2">
       <mdb-col md="4">
            <h3 class="font-weight-bold">I C T</h3> 
         <ul class="list-unstyled">
-          <li>  <mdb-icon  icon="angle-double-right"/> Wed Development</li>
+          <li>  <mdb-icon  icon="angle-double-right"/> Web Development</li>
           <li>  <mdb-icon  icon="angle-double-right"/> Moblie Application Development</li>
           <li>  <mdb-icon  icon="angle-double-right"/> Embedded Systems</li>
           <li>  <mdb-icon  icon="angle-double-right"/> Artificial Inteligence</li>
         </ul>
 
       </mdb-col>
-       <mdb-col md="4">
+       <mdb-col md="4" >
         <h3 class="font-weight-bold">Creative Industry</h3> 
         <ul class="list-unstyled">
-          <li> <mdb-icon  icon="angle-double-right"/>   Audio Production and Engineering</li>
-          <li> <mdb-icon  icon="angle-double-right"/>  Movie Production</li>
+          <li> <mdb-icon  icon="angle-double-right"/> Audio Production and Engineering</li>
+          <li> <mdb-icon  icon="angle-double-right"/> Movie Production</li>
           <li> <mdb-icon  icon="angle-double-right"/> Multimedia Production</li>
         </ul>
       </mdb-col>
-       <mdb-col md="4">
+       <mdb-col md="4" >
         <h3 class="font-weight-bold">Continue Education</h3> 
          <ul class="list-unstyled">
           <li> <mdb-icon  icon="angle-double-right"/>  Six Form</li>
@@ -48,18 +48,18 @@
   </section>
   <section>
     <mdb-row>
-      <mdb-container>
-        <h1 class="font-weight-bold text-center mt-5">NOT ALL BOOT CAMPS ARE CREATED THE SAME</h1>
+      <mdb-container >
+        <h1 class="font-weight-bold text-center mt-5 ml-2">NOT ALL BOOT CAMPS ARE CREATED THE SAME</h1>
         <h6 class="text-center">Come and have all at Avakenn Dev Boot Camp</h6>
         <mdb-row>
           <mdb-col md="6">
-            <h5>The only Boot Camp in Benue State, Gboko in Particular</h5>
+            <h5 class="ml-2">The only Boot Camp in Benue State, Gboko in Particular</h5>
 
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="89%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Gboko%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">top rated embedgooglemap.net themes</a></div></div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="89%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Gboko%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">top rated embedgooglemap</a></div></div>
 
           </mdb-col>
           <mdb-col md="6">
-            <div class="boot">
+            <div class="boot ml-2">
               <h1 class="boot" style="color:blue">OUR OBJECTIVE</h1>
                 We strive for teaching our students the most up-to-date contents through effective methods. Our dynamic curriculum has been refined and optimized over the periods by our founding members-a team of seasoned software developers and tech executives.
               </div>
@@ -73,7 +73,7 @@
     <h3 class="font-weight-bold text-center py-4 ">Who is it for?</h3>
     <mdb-container>
     <b-row class="cards">
-    <div class="container">
+    <div class="container ml-2 mr-2">
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row steps-section">
@@ -123,11 +123,11 @@
   <h3 class="font-weight-bold text-center py-5 ">Why Avakenn Dev Boot Camp?</h3>
       
     <mdb-container>
-     <h6 class="text-center" style="font-size:22px">
+     <h6 class="text-center ml-2" style="font-size:22px">
         Online learning courses and other trainings only have a 5% completion rate, meaning the vast majority of self-learners aren't able to learn coding and other trends by self-studying. You can do much better by registering for our program, and here's why:
       </h6>
       <b-row class="cards">
-    <div class="container">
+    <div class="container ml-2">
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row steps-section">
@@ -174,7 +174,7 @@
    <h3 class="font-weight-bold text-center py-5 ">Sure way to success</h3>
     <mdb-container>
       <b-row class="cards">
-    <div class="container">
+    <div class="container ml-2 mr-2">
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row steps-section">
@@ -214,7 +214,7 @@
             <mdb-col md="4">
               <mdb-testimonial>
                 <mdb-avatar class="mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle img-fluid"/>
+                  <img src="/static/avatar.png" class="rounded-circle img-fluid"/>
                 </mdb-avatar>
                 <h4 class="font-weight-bold mt-4">Dooyum Luke</h4>
                 <h6 class="blue-text font-weight-bold my-3">Software Development</h6>
@@ -225,7 +225,7 @@
             <mdb-col md="4" class="clearfix d-none d-md-block">
               <mdb-testimonial>
                 <mdb-avatar class="mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid"/>
+                  <img src="/static/avatar.png" class="rounded-circle img-fluid"/>
                 </mdb-avatar>
                 <h4 class="font-weight-bold mt-4">Elisa Janson</h4>
                 <h6 class="blue-text font-weight-bold my-3">Web Development</h6>
@@ -236,7 +236,7 @@
             <mdb-col md="4" class="clearfix d-none d-md-block">
               <mdb-testimonial>
                 <mdb-avatar class="mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid"/>
+                  <img src="/static/avatar.png" class="rounded-circle img-fluid"/>
                 </mdb-avatar>
                 <h4 class="font-weight-bold mt-4">Rob Jacobs</h4>
                 <h6 class="blue-text font-weight-bold my-3">Web Development</h6>
@@ -368,6 +368,7 @@ export default {
 }
 .boot{
 font-size: 30px;
+margin-left:1px;
 padding-top:20px;
 padding-left:20px;
 border-left: 1px solid darkblue;

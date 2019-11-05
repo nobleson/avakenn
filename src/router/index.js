@@ -5,6 +5,7 @@ import Router from 'vue-router';
 
 import PrintingPressPage from '../docs/PrintingPress/PrintingPressPage';
 import BootCampPage      from '../docs/BootCamp/BootCampPage';
+import CoursePage      from '../docs/course/CoursePage';
 import StudioPage   from '../docs/Studio/StudioPage';
 import ComputerPlazaPage      from '../docs/computerplaza/ComputerPlazaPage';
 import TrainingSchoolPage from '../docs/School/TrainingSchoolPage';
@@ -20,11 +21,15 @@ export default new Router({
       name: 'Home',
       component: HomePage
     },
-    // CATEGORIES
     {
       path: '/school',
       name: 'TrainingSchoolPage',
       component: TrainingSchoolPage
+    },
+    {
+      path: '/course',
+      name: 'CoursePage',
+      component: CoursePage
     },
     {
       path: '/computerplaza',
